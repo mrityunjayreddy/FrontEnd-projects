@@ -1,0 +1,51 @@
+/*base color-#ed3309 */
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive; */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #7a7a7a;
+}
+
+/*------------------------------------------------*/
+/*-------------------HEADER-----------------------*/
+/*------------------------------------------------*/
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/back1.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+    
+}
+.first{
+    font-size: 360%;
+}
+h2{
+    letter-spacing: -4px;
+    font-size: 280%;
+    padding: 0;
+    line-height: 35px;
+}
+.logo{
+    position: relative;
+    left: 240px;
+    top: -20px;
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+}
+.about-text{
+    text-align: left;
+    position: relative;
+    top: 60px;
+    font-size: 120%;
+    letter-spacing: -1px;
+    line-height: 30px;
+}

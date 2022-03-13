@@ -1,0 +1,96 @@
+/*base color-#2980b9,#17c0eb*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato',sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    color:#646464;   
+}
+/*---------------------------------------------------------*/
+/* HEADER */
+/*---------------------------------------------------------*/
+header{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/bg2.jpg);
+    height:10vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 180%;
+    letter-spacing: 1px;
+}
+.icon1{
+    position: relative;
+    top: 5px;
+    color: #17c0eb;
+}
+/*---------------------------------------------------------*/
+/*SECTION*/
+/*---------------------------------------------------------*/
+section{
+    background-image: linear-gradient(90deg, white  50%, #17c0eb 50%);
+    height: 80vh;
+    padding: 10px;
+}
+h1{
+    font-family: 'Viga', sans-serif;
+    color:#17c0eb;
+    line-height: 35px;
+    
+}
+small{
+    color: #2980b9;
+}
+.icons{
+    color: #17c0eb;
+    position: relative;
+    left: 35px;
+    top: -30px;
+font-size: 120%;
+}
+.logo{
+    position: relative;
+    left: 30px;
+    width: 350px;
+    height: 350px;
+    top: -20px;
+    
+}
+.right h1{
+    position: relative;
+    top: -30px;
+    padding-left: 40px;
+    font-size: 320%;
+    line-height: 55px;
+    color: white;
+}
+form{
+    color: white;
+    font-family: 'Viga', sans-serif;
+    padding-left: 100px;
+    font-size: 70%;
+}
+/*---------------------------------------------------------*/
+/* FOOTER*/
+/*---------------------------------------------------------*/
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/bg2.jpg);
+    height:10vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 60%;
+    font-family: 'Viga', sans-serif;
+    letter-spacing: 3px;
+}

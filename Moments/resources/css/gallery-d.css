@@ -1,0 +1,152 @@
+/*base color-#ed3309 */
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive; */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #7a7a7a;
+}
+/*------------------------------------------------*/
+/*-------------------HEADER-----------------------*/
+/*------------------------------------------------*/
+header{  
+    background-color: white;
+    height: 70vh;
+}
+.container1{
+    background-color: #ed3309;
+    padding-top: 20px;
+}
+h1{
+     font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 300%;
+    padding-bottom: 20px;
+}
+.logo{
+    position: relative;
+    left: 600px;
+    top: -10px;
+    height: 100px;
+    width: 100px;
+}
+.wedding{
+    background-image: linear-gradient(rgba(255,182,193,0.6),rgba(255,182,193,0.6)),url(images/wedding.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.wedding:hover{ background-image: linear-gradient(rgba(255,182,193,0.2),rgba(255,182,193,0.2)),url(images/wedding.jpg);
+    transition-property: all;
+    transition-duration: 2s;    
+}
+.fashion{
+    background-image:  linear-gradient(rgba(148,0,211,0.6),rgba(148,0,211,0.6)),url(images/fashion.jpg);
+    height: 30vh;
+    background-size: cover;
+     background-position: center;
+    text-align: center;
+    color: white;
+}
+.fashion:hover{ background-image:  linear-gradient(rgba(148,0,211,0.2),rgba(148,0,211,0.2)),url(images/fashion.jpg);
+    transition-property: all;
+    transition-duration: 2s;    
+}
+
+.concert{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/concert.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.concert:hover{ background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/concert.jpg);
+    transition-property: all;
+    transition-duration: 2s;    
+}
+
+.art{
+    background-image: linear-gradient(rgba(255,255,0,0.6),rgba(255,255,0,0.6)),url(images/art.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.art:hover{ background-image:  linear-gradient(rgba(255,255,0,0.2),rgba(255,255,0,0.2)),url(images/art.jpg);
+    transition-property: all;
+    transition-duration: 2s;    
+}
+.nature{
+    background-image:linear-gradient(rgba(34,139,34,0.6),rgba(34,139,34,0.6)), url(images/nature.jpg);
+    height: 30vh;
+    background-size: cover;
+     background-position: center;
+    text-align: center;
+    color: white;
+}
+.nature:hover{ background-image:  linear-gradient(rgba(34,139,34,0.2),rgba(34,139,34,0.2)),url(images/nature.jpg);
+    transition-property: all;
+    transition-duration: 2s;    
+}
+.travel{
+    background-image: linear-gradient(rgba(0,0,255,0.6),rgba(0,0,255,0.6)), url(images/travel.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.travel:hover{ background-image:   linear-gradient(rgba(0,0,255,0.2),rgba(0,0,255,0.2)) ,url(images/travel.jpg);
+    transition-property: all;
+    transition-duration: 2s;    
+}
+
+h2{
+    padding-top: 90px;
+    font-size: 140%;
+    letter-spacing: -2px;
+}
+
+/*------------------------------------------------*/
+/*-------------------Footer-----------------------*/
+/*------------------------------------------------*/
+
+footer{
+    background-image: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,0.5)),url(images/back7.jpg);
+    height:30vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  
+    padding-top: 40px;
+    color: white;
+}
+.footer-text{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+    font-size: 200%;
+    color: white;
+    
+}
+.iconsocial{
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+    color: white;
+    font-size:120%;
+}
+.copyright-text{
+    font-size: 80%;
+    color: white;
+    line-height:20px;
+}

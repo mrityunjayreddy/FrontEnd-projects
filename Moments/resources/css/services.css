@@ -1,0 +1,96 @@
+/*base color-#ed3309 */
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive; */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #7a7a7a;
+}
+
+/*------------------------------------------------*/
+/*-------------------HEADER-----------------------*/
+/*------------------------------------------------*/
+header{
+    background-color: #ed3309;
+    height: 80vh;
+}
+.logo{
+    position: relative;
+    left: 45%;
+    height: 100px;
+    width:100px;
+}
+    
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+    font-size: 260%;
+    position: relative;
+    left: 360px;
+    color: #ed3309;
+}
+
+.base2{
+    background-color: white;
+    padding: 40px;
+}
+form{
+    padding: 40px;
+    position: relative;
+    left: 320px;
+    font-size: 70%;
+    width: 500px;
+}
+.img2{
+    position: relative;
+    top: -400px;
+    left: 20px;
+    height: 300px;
+    width: 300px;
+}
+.img3{
+    position: relative;
+    top: -400px;
+    left:450px;
+    height: 300px;
+    width: 300px; 
+}
+/*---------------------------------------------------------*/
+/* FOOTER */
+/*---------------------------------------------------------*/
+footer{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/back5.jpg);
+    height:40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  
+    padding-top: 40px;
+    color: white;
+}
+.footer-text{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+    font-size: 200%;
+    color: white;
+    
+}
+.iconsocial{
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+    color: white;
+    font-size:120%;
+}
+.copyright-text{
+    font-family: 'Viga', sans-serif;
+    font-size:80%;
+    color: white;
+    line-height:20px;
+}

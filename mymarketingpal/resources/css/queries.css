@@ -1,0 +1,17 @@
+/*width 1140px*/
+@media only screen width and( max-width:1200px)
+{
+    header{
+        background-color: aqua;
+    }
+}
+@media only screen width and( max-width:1000px)
+{
+   
+}
+@media only screen width and( max-width:900px)
+{
+    body{
+        font-size: 15px;
+    }
+}

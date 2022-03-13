@@ -1,0 +1,136 @@
+/*base color-#2980b9,#17c0eb*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    color: #646464;
+}
+/*---------------------------------------------------------*/
+/* HEADER */
+/*---------------------------------------------------------*/
+
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo1 {
+    position: relative;
+    top: -30px;
+    height: 120px;
+    width: 120px;
+}
+
+.menu-bar {
+    list-style: none;
+    text-decoration: none;
+
+    font-size: 60%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.menu-bar a:link,.menu-bar a:visited {
+    text-decoration: none;
+    color: #17c0eb;
+}
+.menu-bar a:hover,.menu-bar a:active {
+    text-decoration: none;
+    color: #2980b9;
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+.menu-bar li {
+    display: inline-block;
+    padding-left: 30px;
+
+}
+
+h1 {
+    position: relative;
+    top: -40px;
+    padding-left: 100px;
+    padding-top: 0px;
+    color: #17c0eb;
+    font-family: 'Viga', sans-serif;
+    line-height: 35px;
+}
+
+.text-top {
+    font-size: 90%;
+    color: #2980b9;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form1 {
+    font-size: 70%;
+    color: #17c0eb;
+    font-weight: 500;
+
+}
+/*---------------------------------------------------------*/
+/* SECTION 1 */
+/*---------------------------------------------------------*/
+section{
+    background-color: #17c0eb;
+    height: 90vh;
+    color: white;
+    padding: 40px;
+}
+h2{
+    padding-left: 100px;
+    color: white;
+    font-family: 'Viga', sans-serif;
+    line-height: 35px;
+    padding-bottom: 20px;
+    
+}
+.form2 {
+    padding: 30px;
+    font-size: 70%;
+    color: white;
+    font-weight: 500;}
+    /*---------------------------------------------------------*/
+/* FOOTER */
+/*---------------------------------------------------------*/
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/bg2.jpg);
+    height:40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  
+    padding-top: 40px;
+    color: white;
+}
+.footer-text{
+    font-family: 'Viga', sans-serif;
+    font-size: 200%;
+    color: white;
+    
+}
+.iconsocial{
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+    color: white;
+    font-size:120%;
+}
+.copyright-text{
+    font-family: 'Viga', sans-serif;
+    font-size:80%;
+    color: white;
+    line-height:20px;
+}
